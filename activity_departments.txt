@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.cse.DEPARTMENTS">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE"
+        android:id="@+id/CSE"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ECE"
+        android:layout_alignStart="@+id/ECE" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ECE"
+        android:id="@+id/ECE"
+        android:layout_below="@+id/CSE"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="119dp"
+        android:layout_marginEnd="119dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EEE"
+        android:id="@+id/EEE"
+        android:layout_below="@+id/ECE"
+        android:layout_alignLeft="@+id/CIVIL"
+        android:layout_alignStart="@+id/CIVIL" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CIVIL"
+        android:id="@+id/CIVIL"
+        android:layout_below="@+id/EEE"
+        android:layout_alignLeft="@+id/ECE"
+        android:layout_alignStart="@+id/ECE" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MECH"
+        android:id="@+id/MECH"
+        android:layout_below="@+id/CIVIL"
+        android:layout_alignLeft="@+id/CIVIL"
+        android:layout_alignStart="@+id/CIVIL" />
+</RelativeLayout>
+
